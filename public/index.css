@@ -1,0 +1,48 @@
+.todo {
+  margin-bottom: 1rem;
+}
+
+.todo span.completed {
+  text-decoration: line-through;
+}
+
+.todo label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: #f3f3f3;
+  padding: 1rem;
+}
+
+.todo i {
+  z-index: 2;
+}
+
+.hide-on-med-and-down {
+  display: block !important;
+}
+
+.todo-bar {
+  justify-content: start !important;
+}
+
+.form-save {
+  margin: 0 10px;
+  display: flex;
+  flex: 1;
+}
+
+.form-delete {
+  margin: 0 10px;
+}
+
+.btn-save {
+  margin: 0 10px;
+  margin-left: auto;
+}
+
+.create-todo-label {
+  display: none;
+}
